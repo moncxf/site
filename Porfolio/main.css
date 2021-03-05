@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow: hidden;
+    background: Yellow;
+}
+section {
+    position: relative;
+    top: 20px;
+    padding-left: 4%;
+    font-family: Montserrat;
+    font-size: 16px;
+    text-decoration: none;
+}
+a {
+    color: gray;
+}
+a:hover {
+    color: rgb(80, 69, 69);
+    font-size: 21px;
+}
+a:focus {
+    color: rgb(80, 69, 69);
+    font-size: 21px;
+}
+span{
+    font-size: 60px;
+    text-align: center;
+    font-family: Montserrat;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:clamp(60px, 8vw, 60px)
+      letter-spacing:0.05em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+                          4px 4px #ff1f8f,
+                          10px 10px #000000;
+    text-decoration: none;
+                        }
+.text {
+    text-align: center;
+    background: SkyBlue;
+    font-family: Montserrat;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+      letter-spacing:0.025em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+                          2px 2px #ff1f8f,
+                          5px 5px #000000;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    background: -webkit-linear-gradient(#151515, #ff1f8f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn {
+    background: rgb(238, 201, 238);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    border: Black solid 1px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 13px;
+}
+.btn:focus{
+    background: rgb(218, 159, 218);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    border: Black solid 1px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+}
+.btn-pos {
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.text-pos {
+    position: relative;
+    top: 10px;
+    margin-top: 20%;
+}
+.btn-return {
+    background: rgb(238, 201, 238);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+    border: Black solid 1px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 13px;
+    position: relative;
+    top: 70Px;
+}
+.btn-pos2 {
+    position: relative;
+    left: 450px;
+    top: -30px;
+}
