@@ -1,0 +1,130 @@
+@font-face {
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+.bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .9;
+    visibility: visible;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: myfont;
+    overflow: hidden;
+    background: #303030;
+}
+.nav {
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+.navt {
+    text-decoration: none;
+    color: azure;
+    font-family: myfont;
+    font-style: bold;
+    text-shadow: 1px 1px 1px gray;
+    font-size: 18px;
+    transition-duration: 0.3s;
+}
+.navt:hover {
+    color: rgb(59, 230, 59);
+    font-size: 20px;
+    background: black;
+    cursor: pointer;
+}
+.title {
+    text-align: center;
+    color: ghostwhite;
+    font-size: xx-large;
+    position: relative;
+    top: 150px;
+    transition-duration: 0.15s;
+}
+.title:hover {
+    color: gray;
+    position: relative;
+    top: 155px;
+}
+.btn {
+    text-decoration: none;
+    color: aliceblue;
+    border: black solid 1px;
+    border-radius: 12px;
+    background-color: black;
+    padding: 6px;
+    padding-left: 10px;
+    transition-duration: 0.3s;
+}
+.btn:hover {
+    background-color: chartreuse;
+    color: black;
+    font-size: 35px;
+}
+footer {
+    position: fixed;
+    bottom: 1px;
+}
+.me {
+    position: relative;
+    top: 1100px;
+    font-size: xx-large;
+    transition-duration: 0.3s;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.me:hover {
+    color: gray;
+}
+.contact {
+    text-align: center;
+    position: relative;
+    top: 1200px;
+    bottom: 100px;
+    text-decoration: none;
+    padding-bottom: 10%;
+}
+img {
+    width: 10%;
+}
+.ig {
+    width: 5%;
+}
+.change:after {
+    content:'My Websites';
+}
+.change:hover:after{
+    content:'Soon !!';
+}
+.change2:after {
+    content:'Work';
+}
+.change2:hover:after{
+    content:'Soon ;)';
+}

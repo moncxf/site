@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    /* overflow: hidden; */
+    padding: 1%;
+    background:white ;
+    font-family: Roboto,sans-serif;
+}
+.positionnav {
+    position: relative;
+    right: 1px;
+}
+header {
+    text-align: right;
+}
+.textnav {
+    text-decoration: none;
+    color: #151515;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+.textnav:hover {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20.5px;
+    text-shadow: 1px 1px 5px gray;
+    transition-duration: 0.3s;
+}
+.btnnav {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 3px solid #2d96c8;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #2d96c8;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0.5px 0.5px 2px gray;
+}
+.btnnav:hover {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 3px solid #15739e;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #2d96c8;
+    transition-duration: 0.3s;
+}
+.logo {
+    position: relative;
+    top: -28px;
+    left: -1050px;
+}
+.logo:hover {
+    position: relative;
+    top: -27px;
+    left: -1050px;
+}
+h1 {
+    font-size: 50px;
+    color: #32323d;
+}
+h2 {
+    font-size: 30px;
+    color: #ef5466;
+    position: relative;
+    top: -25px;
+}
+.title {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.img {
+    text-align: right;
+}
+.premium {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 3px solid #ef5466;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ef5466;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+.premium:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #ef5466;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: .5s;
+    background-color: #ef5466;
+}
+.free {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 3px solid gray;
+    border-radius: 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+.free:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid rgb(97, 91, 91);
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(97, 91, 91);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: .5s;
+}
+.btns {
+    position: absolute;
+    left: 105px;
+    bottom: 75px;
+}
+audio {
+    position: relative;
+    bottom: 230px;
+    left: 450px;
+}
