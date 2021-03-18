@@ -1,0 +1,83 @@
+@font-face{
+    font-family: myfont;
+    src: url(../fronted/myfont.ttf);
+}
+body {
+    background-image: url('../backend/img/bg4.png');
+    font-family: Arial;
+    color: white;
+}
+.nav {
+    font-family: myfont;
+    text-align: center;
+    /* position: absolute;
+    left: 30px; */
+    font-size: xx-large;
+    transition-duration: 0.15s;
+}
+.nav:hover {
+    font-size: 34px;
+    /* position: absolute;
+    left: 32px; */
+    filter: drop-shadow(5px 5px 15px gray);
+}
+.series {
+    position: absolute;
+    top: 130px;
+    left: 30px;
+}
+.thumb {
+    width: 210px;
+    height: 330px;
+    transition-duration: 0.15s;
+    padding: 20px;
+}
+.thumb:hover {
+    filter: drop-shadow(5px 5px 5px #151515);
+    width: 215px;
+}
+.movies {
+    position: absolute;
+    top: 570px;
+    left: 30px;
+}
+footer {
+    position: relative;
+    top: 1000px;
+}
+.btn {
+    color: orangered;
+    text-decoration: none;
+    font-size: 60px;
+    position: fixed;
+    top: 620px;
+    right: 20px;
+    border: solid 1px white;
+    border-radius: 50%;
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-duration: .15s;
+    box-shadow: 2px 2px 5px gray;
+}
+.btn:hover {
+    box-shadow: 5px 5px 10px gray;
+    font-size: 62px;
+}
+.more {
+    position: relative;
+    left: 10px;
+    color: rgb(233, 90, 90);
+    text-decoration: none;
+    font-size: 15px;
+    transition-duration: 0.3s;
+}
+.more:hover {
+    font-size: 16px;
+}
+.txt {
+    transition-duration: .25s;
+}
+.txt:hover {
+    font-size: 27px;
+}
