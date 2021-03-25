@@ -1,0 +1,62 @@
+@font-face{
+    font-family: mont;
+    src: url(../fonts/ios.otf);
+}
+body {
+    background-image: url('../img/bg.png');
+    font-family: mont;
+    color: aliceblue;
+    user-select:none;
+}
+header {
+    text-align: right;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+}
+h1 {
+    font-size: 50px;
+}
+h5 {
+    font-size: 25px;
+}
+section {
+    text-align: center;
+}
+input {
+    border: none;
+    font-family: mont;
+    font-size: 23px;
+    padding: 5px;
+    border-radius: 7px;
+    background: white;
+    transition-duration: .3s;
+}
+input:hover, input:focus{
+    border: 3px solid black;
+    font-size: 23.5px;
+    padding: 6px;
+    background: rgb(230, 230, 230);
+}
+#btn {
+    font-size: 22px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    background: orangered;
+    color: black;
+    transition-duration: .3s;
+    font-weight: bold;
+}
+#btn:focus, #btn:hover{
+    font-size: 25px;
+    padding: 6px;
+    border: none;
+}
+h6 {
+    font-weight: bold;
+    font-size: 12px;
+}
